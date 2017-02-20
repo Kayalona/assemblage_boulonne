@@ -1,0 +1,33 @@
+
+('Response mean : ', 8521.2152856419)
+
+('Response standard deviation : ', 592.75003640123043)
+
+('Relative Error : ', class=NumericalPoint name=Unnamed dimension=1 values=[0.00209207])
+
+       [ X0         X1         X2         ... X13        X14        X15        ]
+   0 : [  0.0202734  0.0508134 -0.0166438 ...  0.0472583  0.0403959  0.0455613 ]
+   1 : [ -0.0422058 -0.0247926 -0.0103779 ...  0.0454236  0.0460646  0.0420043 ]
+   2 : [ -0.0146089  0.0693447 -0.0134483 ...  0.0484896  0.049037   0.0439139 ]
+...
+9997 : [ -0.0418178  0.0255667 -0.0121299 ...  0.04713    0.0441799  0.0502635 ]
+9998 : [  0.0176326 -0.0171392 -0.0198239 ...  0.0522262  0.0488706  0.0441545 ]
+9999 : [  0.0301908  0.0176627  0.0328013 ...  0.0437192  0.0414821  0.0414087 ]
+
+('Mean_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[12.9177])
+
+('Q90_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[23.757])
+
+('Q99_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[34.8625])
+
+('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[3.12147,15.5297,-3.21377,77.042])
+
+
+('Mean_myDist = ', class=NumericalPoint name=Unnamed dimension=1 values=[12.8189])
+
+('Q90_myDist = ', class=NumericalPoint name=Unnamed dimension=1 values=[23.4617])
+
+('Q99_myDist = ', class=NumericalPoint name=Unnamed dimension=1 values=[32.7617])
+
+('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[3.12147,15.5297,-3.21377,77.042])
+

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{512a4dd1-7389-48ec-ba0a-b29c4ad1ebb6}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Fiab_opT.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="fichier_Ramzi\Efforts de référence.txt" />
+    <Content Include="fichier_Ramzi\inputs-IT10-5000.txt" />
+    <Content Include="fichier_Ramzi\IT00_MC_CHAPITRE6.txt" />
+    <Content Include="fichier_Ramzi\IT10_MC_CHAPITRE6.txt" />
+    <Content Include="fichier_Ramzi\IT20_MC_CHAPITRE6.txt" />
+    <Content Include="fichier_Ramzi\IT30_MC_CHAPITRE6.txt" />
+    <Content Include="fichier_Ramzi\Meta-modèle.png" />
+    <Content Include="fichier_Ramzi\Monte Carlo.png" />
+    <Content Include="fichier_resultats2.txt" />
+    <Content Include="fichier_resultats2_save.txt" />
+    <Content Include="fichier_resultats3.txt" />
+    <Content Include="figure_1.png" />
+    <Content Include="IT10-GAUSS-200.txt" />
+    <Content Include="IT10_MC_CHAPITRE6-GAUSS-200.txt" />
+    <Content Include="IT10_MC_CHAPITRE6.txt" />
+    <Content Include="IT20-GAUSS-200.txt" />
+    <Content Include="IT30-GAUSS-200.txt" />
+    <Content Include="test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fiab_opT.py" />
+    <Compile Include="fichier_Ramzi\convergenceMC_chapitre6.py" />
+    <Compile Include="fichier_Ramzi\defLoc_MC_GAUSS.py" />
+    <Compile Include="new_1.py" />
+    <Compile Include="test_lecture.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fichier_Ramzi" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
