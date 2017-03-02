@@ -1,0 +1,15 @@
+
+('Response mean : ', 8119.119999999999)
+
+('Response standard deviation : ', 0.0)
+
+('Relative Error : ', class=NumericalPoint name=Unnamed dimension=1 values=[0.0237697])
+
+       [ v0      ]
+   0 : [ 8119.12 ]
+   1 : [ 8119.12 ]
+   2 : [ 8119.12 ]
+...
+9997 : [ 8119.12 ]
+9998 : [ 8119.12 ]
+9999 : [ 8119.12 ]

@@ -17,12 +17,12 @@ IT = [10, 20, 30]
 ITx = [0.0, 0.1, 0.2, 0.3]
 
 point90_10 = 14.6283
-point90_20 = 23.757
-point90_30 = 31.8952
+point90_20 = 23.8718
+point90_30 = 32.1752
 
 point99_10 = 20.9318
-point99_20 = 34.8625
-point99_30 = 45.8833
+point99_20 = 34.9877
+point99_30 = 46.193
 
 
 point90_00_ref = 9.6
@@ -49,8 +49,8 @@ plb.plot(Point99_ref,ITx, 'r+')
 
 Yf90 = np.linspace(point90_00_ref,point90_30_ref,100)
 Yf99 = np.linspace(point99_00_ref,point99_30_ref,100)
-Fonction90 = 2.4258E-01*np.log(Yf90)-5.5196E-01
-Fonction99 = 0.2384*np.log(Yf99)-0.6267
+Fonction90 = 2.4081E-01*np.log(Yf90)-5.4765E-01
+Fonction99 = 0.2371*np.log(Yf99)-0.6231
 Fonction90_ref = 2.40e-01*np.log(Yf90)-5.47E-01
 Fonction99_ref = 2.41e-01*np.log(Yf99)-6.31E-01
 

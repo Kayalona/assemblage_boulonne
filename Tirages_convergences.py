@@ -19,6 +19,8 @@ import sys
 # Paramètres :
 IT = 0.1	#Interval de tolérance en mm
 IT0 = str(int(IT*100))
+N = 150
+seed_al = 456
 
 # Paramètres incertains :
 dim = 16
@@ -102,8 +104,8 @@ fittingAlgorithm = ot.CorrectedLeaveOneOut()
 approximationAlgorithm = ot.LeastSquaresMetaModelSelectionFactory(basisSequenceFactory, fittingAlgorithm)
 
 # Génération du plan d'expériences
-N = 1000
-ot.RandomGenerator.SetSeed(80)
+
+ot.RandomGenerator.SetSeed(seed_al)
 Liste_test = ot.LHSExperiment(myDistribution, N)
 InputSample = Liste_test.generate()
 

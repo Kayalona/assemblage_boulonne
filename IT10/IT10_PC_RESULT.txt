@@ -29,5 +29,5 @@
 
 ('Q99_myDist = ', class=NumericalPoint name=Unnamed dimension=1 values=[20.2935])
 
-('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[5.54926,22.3114,-5.80237,49.5384])
+('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[2.61339,7.55733,-2.50357,27.9764])
 

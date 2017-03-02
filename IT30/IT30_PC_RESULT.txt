@@ -14,13 +14,13 @@
 9998 : [  0.0264488 -0.0257088 -0.0297358 ...  0.0522262  0.0488706  0.0441545 ]
 9999 : [  0.0452862  0.026494   0.0492019 ...  0.0437192  0.0414821  0.0414087 ]
 
-('Mean_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[18.0309])
+('Mean_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[18.2815])
 
-('Q90_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[31.8952])
+('Q90_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[32.1752])
 
-('Q99_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[45.8833])
+('Q99_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[46.193])
 
-('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[3.93095,19.2636,-5.21272,108.693])
+('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[3.93095,19.2636,-5.01148,109.136])
 
 
 ('Mean_myDist = ', class=NumericalPoint name=Unnamed dimension=1 values=[17.933])
@@ -29,5 +29,5 @@
 
 ('Q99_myDist = ', class=NumericalPoint name=Unnamed dimension=1 values=[46.1076])
 
-('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[3.93095,19.2636,-5.21272,108.693])
+('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[2.85923,9.74661,-4.99389,73.1598])
 

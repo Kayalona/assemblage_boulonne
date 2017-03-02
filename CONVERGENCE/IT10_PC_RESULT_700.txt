@@ -1,0 +1,43 @@
+
+('Response mean : ', 8148.63896604438)
+
+('Response standard deviation : ', 357.63510859490304)
+
+('Relative Error : ', class=NumericalPoint name=Unnamed dimension=1 values=[0.000343159])
+
+       [ v0      ]
+   0 : [ 8413.45 ]
+   1 : [ 7914.22 ]
+   2 : [ 8036.99 ]
+...
+9997 : [ 8176.88 ]
+9998 : [ 7924.48 ]
+9999 : [ 8060.37 ]
+
+('Q90_SS = ', 13.657649387967266)
+
+('Q99_SS = ', 25.890879696038379)
+
+
+('Mean_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[7.95404])
+
+('Q90_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[14.583])
+
+('Q99_Beta = ', class=NumericalPoint name=Unnamed dimension=1 values=[21.5097])
+
+('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[3.06282,16.2919,-1.72697,49.7688])
+
+
+('Q90_SS1 = ', 14.580961207467231)
+
+('Q99_SS1 = ', 20.69535283993115)
+
+
+('Mean_Beta1 = ', class=NumericalPoint name=Unnamed dimension=1 values=[7.80838])
+
+('Q90_Beta1 = ', class=NumericalPoint name=Unnamed dimension=1 values=[14.3365])
+
+('Q99_Beta1 = ', class=NumericalPoint name=Unnamed dimension=1 values=[19.5364])
+
+('Param\xc3\xa8tre de la loi Beta = ', class=NumericalPoint name=Unnamed dimension=4 values=[3.69308,10.1517,-4.32231,29.0231])
+
